@@ -1,0 +1,7 @@
+extends includes/layout.pug
+
+block conteudo 
+    h2 Listagem de produtos
+    ul
+        each product in list
+            li= product

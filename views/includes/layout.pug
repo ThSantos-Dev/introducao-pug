@@ -1,0 +1,24 @@
+doctype
+html(lang='pt-BR')
+    include head.pug 
+    body
+
+        section.section 
+            h2 Como funciona essa parada com JS e jQuery?
+            p Eu não faço a menor ideia de como isso vai funcinar, mas vamos manter a fé
+            span Vamos ver como renderiza
+
+        section.section
+            h2 Utilizando variáveis     
+            div.content 
+                h3= titulo 
+                p= mensagem 
+
+        main 
+            h2 Testando o include 
+            include header.pug
+
+        //- Bloco para substituição
+        block conteudo 
+            h1 Meu conteudo padrão
+            p Esse é o conteúdo padrão para o block 
